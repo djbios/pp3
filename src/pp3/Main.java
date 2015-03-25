@@ -20,7 +20,7 @@ public class Main {
 		np.ReadFile();
 		for(int i=0;i<array.length ;i++)
 		{
-			array[i] = np.ParseString(array[i]);
+			array[i] = np.ParseString(array[i]);//цикл парсинга
 			System.out.println(array[i]+'\n');
 		}
 		
